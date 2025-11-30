@@ -8,7 +8,7 @@ public class QotdMT{
     public static void main(String[] args) {
         int port = 2000;
         ExecutorService service = Executors.newFixedThreadPool(10);
-        String[] quotes = {"<Brutto>", "<Tu ma è brutta>", "<ma esplodi>","<Culoh!>"};
+        String[] quotes = {"<Brutto>", "<Tu ma è brutta>", "<ma esplodi>","<Culoh!>","<La vita è un'insegna al neon che brilla da lontano>"};
 
         try(ServerSocket servSock = new ServerSocket(port)){
             System.out.println("Server Qotd in ascolto sulla porta " + port);
